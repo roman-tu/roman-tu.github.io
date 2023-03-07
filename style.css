@@ -2,4 +2,21 @@
 	display: block;
 	margin: 0px;
 	padding: 0px;
+	font-family: 'MyriadPro';
+	font-weight: normal;
+	font-style: normal;
 }
+
+.retro__car_2018 {
+	font-size: 36px;
+	font-family: "Myriad Pro";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: left;
+	position: absolute;
+	left: 89.937px;
+	top: 19.9px;
+	z-index: 5;
+  }
