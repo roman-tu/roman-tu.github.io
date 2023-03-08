@@ -53,13 +53,10 @@
 .first_block .text{
 	display: flex;
 	flex-direction: column;
-	/* position: absolute; */
 	font-family: 'MyriadPro';
 	font-weight: bold;
 	color: white;
-	/* top: 710px;
-    left: 120px; */
-	z-index: 0;
+	z-index: 0; 
 	background-image: url("./img/mainimg.png");
 	image-rendering: optimizeQuality;
 	background-repeat: no-repeat;
