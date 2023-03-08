@@ -46,26 +46,38 @@
 
 .first_block{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	width: 100%;
+	height: 100vh;
 }
 .first_block .text{
-	display: block;
-	position: absolute;
+	display: flex;
+	flex-direction: column;
+	/* position: absolute; */
 	font-family: 'MyriadPro';
 	font-weight: bold;
 	color: white;
-	top: 710px;
-    left: 120px;
+	/* top: 710px;
+    left: 120px; */
 	z-index: 0;
+	background-image: url("./img/mainimg.png");
+	image-rendering: optimizeQuality;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: auto;
+	justify-content: flex-end;
+	padding-left: 120px;
 }
 .first_block .text #fr{
 	font-size: 70px;
-	width: 820px;
+	/* width: 820px; */
 	margin-bottom: 37px;
 }
 .first_block .text #sc{
 	font-size: 25px;
-	width: 820px;
+	/* width: 820px; */
+	margin-bottom: 10px;
 }
 
 .second_block{
