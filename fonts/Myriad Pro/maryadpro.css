@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "MyriadPro";
+    src: url("MyriadPro-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "MyriadPro";
+    font-weight: bold;
+    src: url("./MYRIADPRO-BOLD.OTF") format("opentype");
+}
+@font-face {
+    font-family: "MyriadPro";
+    font-weight: 300;
+    src: url("./MYRIADPRO-REGULAR.OTF") format("opentype");
+}
